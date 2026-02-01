@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ki-Ci.80 Szerviz Bt. – Villanyszerelés és Automatizálás Pest megyében</title>
+  <meta name="description" content="Villanyszerelés, PLC programozás, automatizálás, kazánjavítás és villamos biztonsági felülvizsgálat Pest megyében és országosan. 0–24 hibaelhárítás." />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header style="padding:40px; background:#111; color:#fff">
+    <h1>Ki-Ci.80 Szerviz Bt.</h1>
+    <p><strong>Villanyszerelés • Automatizálás • PLC • Kazánjavítás</strong></p>
+    <p>Pest megye és környéke – igény esetén országosan</p>
+    <p style="color:orange;"><strong>🚨 0–24 villamos hibaelhárítás</strong></p>
+
+    <p>
+      📞 <a href="tel:+36704181573" style="color:#4ea3ff;">+36 70 418 1573</a><br>
+      ✉️ <a href="mailto:kicsi.80.szerviz@gmail.com" style="color:#4ea3ff;">kicsi.80.szerviz@gmail.com</a>
+    </p>
+
+    <nav style="margin-top:20px;">
+      <a href="services.html">Szolgáltatások</a> |
+      <a href="contact.html">Kapcsolat</a> |
+      <a href="google-checklist.html">Google checklist</a>
+    </nav>
+  </header>
+
+  <main style="padding:40px;">
+    <h2>Szolgáltatásaink</h2>
+    <ul>
+      <li>⚡ Villanyszerelés (lakossági és ipari)</li>
+      <li>🔥 Apríték tüzelésű kazánok javítása</li>
+      <li>🤖 Automatizálás</li>
+      <li>🧠 PLC programozás</li>
+      <li>🛡️ Villamos biztonsági felülvizsgálat</li>
+    </ul>
+
+    <h2>Miért minket válasszon?</h2>
+    <ul>
+      <li>Gyors reagálás</li>
+      <li>Rendszerszemlélet</li>
+      <li>Dokumentált munkavégzés</li>
+      <li>Lakossági és ipari tapasztalat</li>
+    </ul>
+  </main>
+
+  <footer style="padding:20px; background:#eee;">
+    <p>
+      Ki-Ci.80 Szerviz Bt. |
+      2735 Dánszentmiklós, Dózsa György utca 24. |
+      Adószám: 24550585-2-13
+    </p>
+  </footer>
+
+</body>
+</html>
