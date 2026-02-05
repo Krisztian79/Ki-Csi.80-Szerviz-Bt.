@@ -65,48 +65,42 @@
       </div>
 
       <div class="card">
-        <h2>Ajánlatkérés (űrlap mezők)</h2>
-        <p class="sub">
-          Ha van webes űrlapod (pl. WordPress/Elementor), ezt a mezőkiosztást ajánljuk.
-          Addig is emailben vagy telefonon gyorsabb.
-        </p>
+       <form class="card" action="https://formspree.io/f/mgolwyrk" method="POST">
+  <h2>Ajánlatkérés</h2>
 
-        <ul class="list">
-          <li><b>Név*</b></li>
-          <li><b>Telefonszám*</b></li>
-          <li>Email</li>
-          <li>Szolgáltatás (Villanyszerelés / Kazánjavítás / Automatizálás / PLC / Felülvizsgálat)</li>
-          <li>Helyszín (település)</li>
-          <li>Üzenet</li>
-          <li>Checkbox: „Elfogadom az adatkezelési tájékoztatót”</li>
-        </ul>
+  <label class="small">Név*</label>
+  <input name="name" required
+    style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.04);color:#e9eefc;margin:6px 0 12px;">
 
-        <div class="notice" style="margin-top:12px">
-          Küldés után üzenet: <b>„Köszönjük megkeresését! Hamarosan felvesszük Önnel a kapcsolatot.”</b>
-        </div>
+  <label class="small">Telefonszám*</label>
+  <input name="phone" required
+    style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.04);color:#e9eefc;margin:6px 0 12px;">
 
-        <div class="hr"></div>
+  <label class="small">Email</label>
+  <input type="email" name="email"
+    style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.04);color:#e9eefc;margin:6px 0 12px;">
 
-        <p class="small">
-          Tipp: mobilon érdemes fix „Hívás most – 0–24” gombot használni a jobb konverzióért.
-        </p>
-      </div>
+  <label class="small">Szolgáltatás</label>
+  <select name="service"
+    style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.04);color:#e9eefc;margin:6px 0 12px;">
+    <option>Villanyszerelés</option>
+    <option>Kazánjavítás</option>
+    <option>Automatizálás</option>
+    <option>PLC programozás</option>
+    <option>Villamos felülvizsgálat</option>
+  </select>
 
-    </div>
-  </main>
+  <label class="small">Üzenet</label>
+  <textarea name="message" rows="5"
+    style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.04);color:#e9eefc;margin:6px 0 12px;"></textarea>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="small">
-        © <span id="y"></span> Ki-Ci.80 Szerviz Bt. •
-        <a href="impresszum.html">Impresszum</a> •
-        <a href="adatkezeles.html">Adatkezelés</a> •
-        <a href="aszf.html">ÁSZF</a>
-      </div>
-    </div>
-  </footer>
+  <input type="hidden" name="_subject" value="Új ajánlatkérés – Ki-Ci.80 Szerviz Bt.">
 
-  <script src="assets/site.js"></script>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-</body>
-</html>
+  <button class="btn primary" type="submit">Üzenet küldése</button>
+</form>
+    
