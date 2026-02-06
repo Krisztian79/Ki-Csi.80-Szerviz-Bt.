@@ -43,3 +43,11 @@
     });
   }
 })();
+// Mobile fixed call button (all pages)
+(function(){
+  const phone = "+36704181573";
+  const el = document.createElement("div");
+  el.className = "call-fab";
+  el.innerHTML = `<a class="btn warn" href="tel:${phone}">📞 Hívás most (0–24)</a>`;
+  document.body.appendChild(el);
+})();
