@@ -296,3 +296,28 @@ img{max-width:100%;display:block}
   background:rgba(58,160,255,.12);
   color:var(--text)
 }
+/* Mobile fixed call button */
+.call-fab{
+  position: fixed;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: none;
+}
+.call-fab a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  border: 1px solid rgba(255,159,46,.55);
+  background: rgba(255,159,46,.22);
+  box-shadow: 0 12px 30px rgba(0,0,0,.45);
+}
+@media (max-width: 900px){
+  .call-fab{ display:block; }
+  body{ padding-bottom: 90px; } /* hogy ne takarjon */
+}
