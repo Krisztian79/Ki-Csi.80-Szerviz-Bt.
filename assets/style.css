@@ -344,3 +344,11 @@ img{max-width:100%;display:block}
 .hero .container p.sub{
   line-height: 1.6;
 }
+
+@media (max-width: 600px){
+  .hero .container p.sub{
+    max-width: 92%;
+    font-size: 0.98rem;
+  }
+}
+
