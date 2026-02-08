@@ -332,3 +332,8 @@ img{max-width:100%;display:block}
 @media (max-width: 900px){
   .gallery img{ height: 220px; }
 }
+.hero p.sub{
+  text-align: center !important;
+  margin: 10px auto !important;
+  max-width: 700px;
+}
