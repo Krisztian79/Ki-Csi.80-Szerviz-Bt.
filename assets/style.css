@@ -340,3 +340,7 @@ img{max-width:100%;display:block}
   display: block !important;
   max-width: 720px;
 }
+
+.hero .container p.sub{
+  line-height: 1.6;
+}
