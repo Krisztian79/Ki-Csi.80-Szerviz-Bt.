@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kicsi80szerviz.hu/sitemap.xml
